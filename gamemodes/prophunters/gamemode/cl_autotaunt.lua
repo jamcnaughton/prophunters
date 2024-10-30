@@ -1,4 +1,3 @@
-
 local autoTauntEnabled = CreateClientConVar("ph_autotaunt_enabled", 1)
 local minTime = CreateClientConVar("ph_autotaunt_min", 30)
 local maxTime = CreateClientConVar("ph_autotaunt_max", 60)
