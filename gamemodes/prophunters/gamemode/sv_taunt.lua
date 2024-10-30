@@ -53,7 +53,7 @@ concommand.Add("ph_taunt_random", function (ply, com, args, full)
 
 	if !ply:Alive() then return end
 
-	if ply.Taunting && ply.Taunting > CurTime() && !GAMEMODE.TauntOverlap:GetBool() then
+  if ply.Taunting && ply.Taunting > CurTime() && !GAMEMODE.TauntOverlap:GetBool() then
 		return
 	end
 
