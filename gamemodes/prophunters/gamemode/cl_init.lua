@@ -18,7 +18,6 @@ include("cl_endroundboard.lua")
 include("cl_wraptext.lua")
 include("cl_mapvote.lua")
 include("cl_bannedmodels.lua")
-include("cl_autotaunt.lua")
 
 function GM:Initialize() 
 end
